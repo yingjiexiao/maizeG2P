@@ -24,7 +24,7 @@ The best linear unbiased prediction (BLUP) is a widely acceptable approach to ex
 
 
 # 4. Data simulation for GWAS power:
-1) We design two simulation schemes for testing GWAS power based on G2P-predicted phenotype. The details on simulation procedures can be seen in the document "./Data_simulation/Simulation details.docx".
+1) We design two simulation schemes for testing GWAS power based on G2P-predicted phenotype. The details on simulation procedures can be seen in the document "./Data_simulation/Simulation details.md".
 2) simulation#1. We de novo simulated phenotype by additing polygenic effects of 20 QTNs and random residuals. We then simulated predicted phenotypes with six levels of prediction accuracy to evaluate the influence of G2P accuracy on GWAS power and FDR.
 3) simulation#2. We simulated phenotype by adding one QTN effect to a realistic phenotype and predicted phenotype. The process was repeated by testing the impact of different effect sizes of QTN on GWAS power of detecting the specific QTNs in the context of real and predicted phenotypic architectures.
 
